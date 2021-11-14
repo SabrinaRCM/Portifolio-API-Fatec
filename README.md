@@ -42,7 +42,7 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 
 #### Em 2020-1
 O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
-A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
+A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas, importar arquivos csv do cliente em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
 ![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)
 **[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
 
@@ -57,45 +57,51 @@ A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como
      **Import-export** - para importar e exportar arquivos de excel .csv;
 
 ## Contribuições Pessoais
-Do mesmo modo, a preocupação com a TI verde pode nos levar a considerar a reestruturação da garantia da disponibilidade. Evidentemente, a interoperabilidade de hardware causa impacto indireto no tempo médio de acesso dos procolos comumente utilizados em redes legadas. Enfatiza-se que o aumento significativo da velocidade dos links de Internet conduz a um melhor balancemanto de carga da gestão de risco.
+Nesse projeto fui responsável pela criação de toda a interface utilizada, incluindo o gráfico Gantt e algumas de suas funcionalidades em back end.<br>
+Também atuei como Scrum Master participando das reuniões semanais, dando apoio a equipe e trabalhando junto com o Product Owner para definir as tarefas contidas no backlog. As tarefas eram distribuídas de acordo com as habilidades de cada um.
 
 #### Hard Skills Efetivamente Desenvolvidas
-Java, SQL, JavaScript
+* Django: Aprendi a usar com autonomia.
+* PyMySQL: Aprendi a usar com ajuda.
+* Crispy Forms: Aprendi a usar com ajuda.
+* Wireframe: Aprendia a fazer com autonomia.
 
 #### Soft Skills Efetivamente Desenvolvidas
-Proatividade<br>
-Ainda assim, existem dúvidas a respeito de como a alta necessidade de integridade representa uma abertura para a melhoria dos equipamentos pré-especificados.
+* Proatividade: Estávamos em menor número do que o recomendado para esse trabalho, então necessitou que cada um de nós trabalhasse um pouco mais pra compensar.
+* Comunicação: Nesse semestre tivemos que iniciar o ensino emergêncial a distancia por conta da pandemia, por tanto foi essencial manter uma comunicação mais eficaz por conta de não ter como se encontrar pessoalmente como anteriormente na faculdade.
+* Organização: Por estar em casa, acabamos organizando mal o nosso tempo, por isso foi preciso aprender como organizar melhor.
 
 #### Em 2020-2
-Trabalhei no projeto da API com o Parceiro Acadêmico Wild Apricot.<br>
-O incentivo ao avanço tecnológico, assim como a preocupação com a TI verde acarreta um processo de reformulação e modernização da garantia da disponibilidade. Evidentemente, a revolução que trouxe o software livre causa impacto indireto no tempo médio de acesso do tempo de down-time que deve ser mínimo. Enfatiza-se que a consolidação das infraestruturas conduz a um melhor balancemanto de carga da gestão de risco. Nunca é demais lembrar o impacto destas possíveis vulnerabilidades, uma vez que o desenvolvimento contínuo de distintas formas de codificação implica na melhor utilização dos links de dados das ferramentas OpenSource.<br>
-[link para o GIT](https://www.google.com)
+
+**[GIT para projeto](https://github.com/SabrinaRCM/score-wizard-3-semestre)**
 
 #### Tecnologias Utilizadas
-RPA, Machine Learning, Reconhecimento de Voz e ChatBot
+* MySql Community - Banco de dados;
+* Java 1.8 - Linguagem principal;
+* Spring 2.3.0 - Facilitar o desenvolvimento da aplicação;
+* Maven/Gradle - Aplicação web;
+* Hibernate - Ligação com o banco de dados;
+* Html5, JavaScript, CSS, Bootstrap 4 - Front end;
+
 
 ## Contribuições Pessoais
-Do mesmo modo, a preocupação com a TI verde pode nos levar a considerar a reestruturação da garantia da disponibilidade. Evidentemente, a interoperabilidade de hardware causa impacto indireto no tempo médio de acesso dos procolos comumente utilizados em redes legadas. Enfatiza-se que o aumento significativo da velocidade dos links de Internet conduz a um melhor balancemanto de carga da gestão de risco.
+
 
 #### Hard Skills Efetivamente Desenvolvidas
-Java, SQL, JavaScript
+
 
 #### Soft Skills Efetivamente Desenvolvidas
-Proatividade<br>
-Ainda assim, existem dúvidas a respeito de como a alta necessidade de integridade representa uma abertura para a melhoria dos equipamentos pré-especificados.
+
 
 
 ## Meus Principais Conhecimentos
-Edge AI
-AI Engineering
-IOB
-Hiperautomação
-Segurança Modular
-Nuvem Distribuída
+* Python
+* Django
+* HTML, CSS e JavaScript
 
 ## Contatos
-* [GIT](https://www.git.com)
-* [LinkedIn](https://www.linkedin.com)
+* [GIT](https://github.com/SabrinaRCM)
+* [LinkedIn](https://www.linkedin.com/in/sabrina-rafaela-calado-mariano-029349108/)
 
 
 
