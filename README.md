@@ -43,7 +43,7 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 ### Em 2020-1
 O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
 A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas, importar arquivos csv do cliente em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
-![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)
+![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
 
 ### Tecnologias Utilizadas
