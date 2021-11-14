@@ -9,7 +9,7 @@ Cursei junto com o ensino médio o técnico de administração de empresas e 201
 #### Em 2019-2
 O primeiro projeto de foi proposto em parceria com a própria [Fatec](https://fatecsjc-prd.azurewebsites.net/) onde deveriamos solucionar um problema de nossa escolha com a criação de um webbot.<br>
 Nosso bot foi criado pensando em pessoas que pensam em investir em ações da bolsa de valores porém tem pouco conhecimento, não sabe por onde começar ou tem pouco tempo para procurar e analisar a melhor oportunidade. O bot chamado BlackMamba possui funções para raspagem de dados de ações escolhidas pelo usuário diretamente da bolsa de valores e que poderão receber por email, Telegram ou consultar online estatisticas dessa ação, bem como, histórico dos útlimos 12 meses para ajudar o usuário a acompanhar e decidir se aquele investimento será benéfico ou não.<br>
-**[GIT](https://github.com/SabrinaRCM/webbot-blackmamba-1-semestre)**
+**[GIT para projeto](https://github.com/SabrinaRCM/webbot-blackmamba-1-semestre)**
 
 #### Tecnologias Utilizadas
 * Python 3.7 - Linguagem principal;
@@ -41,11 +41,20 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Organizar projetos: Aprendi na prática como distribuir tarefas em um projeto através de boards com atividades.
 
 #### Em 2020-1
-O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web que permitisse ao usuário inserir um projeto, uma tarefa, atribuir funcionários a ela e gerenciar o tempo disponível de cada funcionário em cada tarefa através de um gráfico Gantt.
-**[GIT](https://github.com/SabrinaRCM/bridges-2-semestre)**
+O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
+A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br><br>
+<img src="gantt.png"/>
+**[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
 
 #### Tecnologias Utilizadas
-RPA, Machine Learning, Reconhecimento de Voz e ChatBot
+* Python 3.7 - Linguagem principal
+* FrameWork Django 3 - interface WEB
+* MySQL - Banco de Dados
+* Frappe Gantt - interface do gráfico gantt
+* Principais Bibliotecas Python:  
+     **PyMySQL** - interação com nosso Banco de Dados;<br>
+     **Crispy Forms** - renderizar formulários com Bootstrap;<br>
+     **Import-export** - para importar e exportar arquivos de excel .csv;
 
 ## Contribuições Pessoais
 Do mesmo modo, a preocupação com a TI verde pode nos levar a considerar a reestruturação da garantia da disponibilidade. Evidentemente, a interoperabilidade de hardware causa impacto indireto no tempo médio de acesso dos procolos comumente utilizados em redes legadas. Enfatiza-se que o aumento significativo da velocidade dos links de Internet conduz a um melhor balancemanto de carga da gestão de risco.
