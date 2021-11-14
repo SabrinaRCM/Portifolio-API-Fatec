@@ -1,17 +1,17 @@
-#### Sabrina Rafaela Calado Mariano
+# Sabrina Rafaela Calado Mariano
 
-# Sobre mim
+### Sobre mim
 
 Cursei junto com o ensino médio o técnico de administração de empresas e 2013 comecei a trabalhar na área e comecei a fazer dois cursos superiores em outras áreas, mas ainda não sentia que eu me encaixava no curso ou no emprego. Em 2018 surgiu a vontade e oportunidade de começar um curso técnico no Senac na área de informática, eu já tinha tido contato antes mas nunca pensei em trabalhar com isso. A convite de um amigo que fazia Banco de Dados na Fatec, comecei a participar de eventos de programação e apesar de não entender muito, fui anotando o que achava relevante para consultar posteriormente conforme aprendia. No segundo semestre de 2019 já estava terminando o curso de informática no Senac, ao mesmo tempo comecei a trabalhar como suporte técnico para uma empresa que produz software próprio e comecei a fazer o curso de Banco de Dados na Fatec. Em 2021 recebi a proposta dessa mesma empresa de trabalhar como Front-end em um de seus aplicativos e permaneço até então.
 
 # Meus Projetos
 
-#### Em 2019-2
+### Em 2019-2
 O primeiro projeto de foi proposto em parceria com a própria [Fatec](https://fatecsjc-prd.azurewebsites.net/) onde deveriamos solucionar um problema de nossa escolha com a criação de um webbot.<br>
 Nosso bot foi criado pensando em pessoas que pensam em investir em ações da bolsa de valores porém tem pouco conhecimento, não sabe por onde começar ou tem pouco tempo para procurar e analisar a melhor oportunidade. O bot chamado BlackMamba possui funções para raspagem de dados de ações escolhidas pelo usuário diretamente da bolsa de valores e que poderão receber por email, Telegram ou consultar online estatisticas dessa ação, bem como, histórico dos útlimos 12 meses para ajudar o usuário a acompanhar e decidir se aquele investimento será benéfico ou não.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/webbot-blackmamba-1-semestre)**
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 * Python 3.7 - Linguagem principal;
 * Django, Javascript, HTML5, CSS,  Bootstrap - Front End WEB;
 * MySQL - Banco de Dados;
@@ -40,13 +40,13 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Confiança: Nós estavámos sendo orientados por um Product Owner e um Scrum Master do 6° semestre, foi preciso confiar na experiência que eles possuiam para nos orientar.
 * Organizar projetos: Aprendi na prática como distribuir tarefas em um projeto através de boards com atividades.
 
-#### Em 2020-1
+### Em 2020-1
 O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
 A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas, importar arquivos csv do cliente em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
 ![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)
 **[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 * Python 3.7 - Linguagem principal
 * FrameWork Django 3 - interface WEB
 * MySQL - Banco de Dados
@@ -71,11 +71,11 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 * Comunicação: Nesse semestre tivemos que iniciar o ensino emergêncial a distancia por conta da pandemia, por tanto foi essencial manter uma comunicação mais eficaz por conta de não ter como se encontrar pessoalmente como anteriormente na faculdade.
 * Organização: Por estar em casa, acabamos organizando mal o nosso tempo, por isso foi preciso aprender como organizar melhor.
 
-#### Em 2020-2
+### Em 2020-2
 
 **[GIT para projeto](https://github.com/SabrinaRCM/score-wizard-3-semestre)**
 
-#### Tecnologias Utilizadas
+### Tecnologias Utilizadas
 * MySql Community - Banco de dados;
 * Java 1.8 - Linguagem principal;
 * Spring 2.3.0 - Facilitar o desenvolvimento da aplicação;
