@@ -78,6 +78,7 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 O projeto teve como Parceiro Acadêmico a empresa [SPC](https://www.spcbrasil.org.br/). Nossa proposta era criar um complemento para o produto Cadastro Positivo do SPC Brasil.<br>
 A aplicação **Score Wizard** (do inglês, Pontuação Inteligente) foi criada com objetivo de permitir que pessoas fisícas e jurídicas consigam ter maior controle sobre como seu Score sofre alterações positivas e negativas. O score é importante para conseguir alguns objetivos no mercado como: empréstimos, cartão de crédito e financiamento. Quanto maior o score, maiores são as chances de conseguir crédito com as empresas especializadas nisso.<br> 
 O usuário possui um simulador onde pode escolher seu objetivo e assim receber algumas metas que irão auxiliar no aumento do Score e assim cumprir o objetivo. Além disso, foi acrescentado uma especie de jogo onde algumas ações como pagamento de contas em dia, acrescentará pontos de experiência no perfil permitindo que seja comprado na loja do SPC alguns serviços adicionais para monitoramento do CPF ou CNPJ.<br>
+![scorewizardlogin](https://user-images.githubusercontent.com/37507613/142071331-fc0f3880-0c52-4ad7-82ee-ee4ec11bfb34.png)<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/score-wizard-3-semestre)**
 
 ### Tecnologias Utilizadas
