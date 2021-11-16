@@ -33,6 +33,8 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Django: Aprendi a usar com ajuda.
 * PowerBI: Aprendi a usar com ajuda.
 * Pandas / Matplotlib: Aprendi a usar com autonomia.
+* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* Wareframe: Aprendi a fazer com autonomia;
 * Metodologias Scrum: Aprendi na prática.
 
 #### Soft Skills Efetivamente Desenvolvidas
@@ -64,7 +66,8 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 * Django: Aprendi a usar com autonomia.
 * PyMySQL: Aprendi a usar com ajuda.
 * Crispy Forms: Aprendi a usar com ajuda.
-* Wireframe: Aprendia a fazer com autonomia.
+* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* Wireframe: Aprendi a fazer com autonomia.
 
 #### Soft Skills Efetivamente Desenvolvidas
 * Proatividade: Estávamos em menor número do que o recomendado para esse trabalho, então necessitou que cada um de nós trabalhasse um pouco mais pra compensar.
@@ -72,27 +75,33 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 * Organização: Por estar em casa, acabamos organizando mal o nosso tempo, por isso foi preciso aprender como organizar melhor.
 
 ### Em 2020-2
-
+O projeto teve como Parceiro Acadêmico a empresa [SPC](https://www.spcbrasil.org.br/). Nossa proposta era criar um complemento para o produto Cadastro Positivo do SPC Brasil.<br>
+A aplicação **Score Wizard** (do inglês, Pontuação Inteligente) foi criada com objetivo de permitir que pessoas fisícas e jurídicas consigam ter maior controle sobre como seu Score sofre alterações positivas e negativas. O score é importante para conseguir alguns objetivos no mercado como: empréstimos, cartão de crédito e financiamento. Quanto maior o score, maiores são as chances de conseguir crédito com as empresas especializadas nisso.<br> 
+O usuário possui um simulador onde pode escolher seu objetivo e assim receber algumas metas que irão auxiliar no aumento do Score e assim cumprir o objetivo. Além disso, foi acrescentado uma especie de jogo onde algumas ações como pagamento de contas em dia, acrescentará pontos de experiência no perfil permitindo que seja comprado na loja do SPC alguns serviços adicionais para monitoramento do CPF ou CNPJ.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/score-wizard-3-semestre)**
 
 ### Tecnologias Utilizadas
 * MySql Community - Banco de dados;
 * Java 1.8 - Linguagem principal;
-* Spring 2.3.0 - Facilitar o desenvolvimento da aplicação;
+* Spring 2.3.0/Thymeleaf - Facilitar o desenvolvimento da aplicação;
 * Maven/Gradle - Aplicação web;
 * Hibernate - Ligação com o banco de dados;
 * Html5, JavaScript, CSS, Bootstrap 4 - Front end;
 
-
 ## Contribuições Pessoais
-
+Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto e auxiliando a equipe com o entendimento do mesmo, com o Scrum Master estruturamos as tarefas e divimos de acordo com as prioridades.<br>
+Fui responsável também pela construção da interface front end utilizada.
 
 #### Hard Skills Efetivamente Desenvolvidas
-
+* MySql - Aprendi a usar com autonomia;
+* Thymeleaf - Aprendi a usar com autonomia;
+* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* Wareframe: Aprendi a fazer com autonomia;
 
 #### Soft Skills Efetivamente Desenvolvidas
-
-
+* Flexibilidade e resiliência: No início do projeto enfrentamos algumas dificuldades em relação ao entendimento do projeto, mas conseguimos superar e estruturar o projeto da melhor forma possível entregando o que agradou o cliente.
+* Criatividade: Nesse projeto tivemos que pensar em uma solução inovadora, uma vez que o cliente não definiu exatamente o que ele esperava que o produto fosse.
+* Comunicação: O trabalho novamente foi feito sem que nos encontrassemos pessoalmente pois ainda estávamos em situação de pandemia, o que exigiu de cada um que se comunicasse da melhor forma possível.
 
 ## Meus Principais Conhecimentos
 * Python
