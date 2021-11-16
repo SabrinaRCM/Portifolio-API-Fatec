@@ -33,7 +33,7 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Django: Aprendi a usar com ajuda.
 * PowerBI: Aprendi a usar com ajuda.
 * Pandas / Matplotlib: Aprendi a usar com autonomia.
-* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* Html5, JavaScript, CSS, Bootstrap 4: Aprendi a usar com autonomia;
 * Wareframe: Aprendi a fazer com autonomia;
 * Metodologias Scrum: Aprendi na prática.
 
@@ -66,7 +66,7 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 * Django: Aprendi a usar com autonomia.
 * PyMySQL: Aprendi a usar com ajuda.
 * Crispy Forms: Aprendi a usar com ajuda.
-* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* Html5, JavaScript, CSS, Bootstrap 4: Aprendi a usar com autonomia;
 * Wireframe: Aprendi a fazer com autonomia.
 
 #### Soft Skills Efetivamente Desenvolvidas
@@ -94,9 +94,9 @@ Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para gar
 Fui responsável também pela construção da interface front end utilizada.
 
 #### Hard Skills Efetivamente Desenvolvidas
-* MySql - Aprendi a usar com autonomia;
-* Thymeleaf - Aprendi a usar com autonomia;
-* Html5, JavaScript, CSS, Bootstrap 4 - Aprendi a usar com autonomia;
+* MySql: Aprendi a usar com autonomia;
+* Thymeleaf: Aprendi a usar com autonomia;
+* Html5, JavaScript, CSS, Bootstrap 4: Aprendi a usar com autonomia;
 * Wareframe: Aprendi a fazer com autonomia;
 
 #### Soft Skills Efetivamente Desenvolvidas
