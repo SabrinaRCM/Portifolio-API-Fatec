@@ -104,6 +104,18 @@ Fui responsável também pela construção da interface front end utilizada.
 * Criatividade: Nesse projeto tivemos que pensar em uma solução inovadora, uma vez que o cliente não definiu exatamente o que ele esperava que o produto fosse.
 * Comunicação: O trabalho novamente foi feito sem que nos encontrassemos pessoalmente pois ainda estávamos em situação de pandemia, o que exigiu de cada um que se comunicasse da melhor forma possível.
 
+### Em 2021-1
+**[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**
+### Tecnologias Utilizadas
+* Python - Linguagem principal;
+* MongoDB - Banco de Dados;
+* Power BI - Exibição dos dados;
+## Contribuições Pessoais
+
+#### Hard Skills Efetivamente Desenvolvidas
+
+#### Soft Skills Efetivamente Desenvolvidas
+
 ## Meus Principais Conhecimentos
 * Python
 * Django
