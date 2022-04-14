@@ -105,7 +105,7 @@ Fui responsável também pela construção da interface front end utilizada.
 * Comunicação: O trabalho novamente foi feito sem que nos encontrassemos pessoalmente pois ainda estávamos em situação de pandemia, o que exigiu de cada um que se comunicasse da melhor forma possível.
 
 ### Em 2021-1
-O projeto teve como Parceiro Acadêmico a empresa. Nossa proposta consistia em criar um sistema de cadastro e busca de currículos baseados em critérios estabelecidos pelo cliente.<br>
+O projeto teve como Parceiro Acadêmico a empresa [JetSoft](https://www.jetsoft.com.br/). Nossa proposta consistia em criar um sistema de cadastro e busca de currículos baseados em critérios estabelecidos pelo cliente.<br>
 A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme a documentação.<br><br>
 **Documentação da API**
 <details >
