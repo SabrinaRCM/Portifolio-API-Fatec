@@ -105,16 +105,436 @@ Fui responsável também pela construção da interface front end utilizada.
 * Comunicação: O trabalho novamente foi feito sem que nos encontrassemos pessoalmente pois ainda estávamos em situação de pandemia, o que exigiu de cada um que se comunicasse da melhor forma possível.
 
 ### Em 2021-1
+O projeto teve como Parceiro Acadêmico a empresa. Nossa proposta consistia em criar um sistema de cadastro e busca de currículos baseados em critérios estabelecidos pelo cliente.<br>
+A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme a documentação.<br><br>
+**Documentação da API**
+<details >
+<summary>
+<b>🟦GET</b>  /buscar_vaga/[Id da Vaga]/ 
+</summary>
+
+Busca uma vaga por id.
+<p>Response 200:</p>
+
+``` json
+{
+    "VagaIdExterno":"1",
+    "tituloVaga":"desc da vaga",
+    "tipoContratacaoPerfilVaga":"clt",
+    "tipoJornadaPerfilVaga":"liberal",
+    "localEnderecoCEPPerfilVaga":"12345-111",
+    "localEnderecoPerfilVaga":"rua, bairro",
+    "localEnderecoNumeroPerfilVaga":"1234",
+    "faixaEtariaInicioPerfilVaga":"21",
+    "faixaEtariaFimPerfilVaga":"35",
+    "tempoExperienciaPerfilVaga":"2 anos",
+    "faixaSalarioInicioPerfilVaga":"2500.00",
+    "dataInicioDivulgacaoPerfilVaga":"01/1/2021",
+    "datafinaldivulgacaoPerfilVaga":"31/01/2021",
+    "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+    ],
+     "PalavraChave" :[
+         {
+            "DescricaoPalavraChave":"Chave",
+         }
+    ],
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟩POST</b> /inserir_vaga
+</summary>
+Insere uma vaga.
+<p>Exemplo de parâmetro:</p>
+
+``` json
+{
+    "VagaIdExterno":"1",
+    "tituloVaga":"desc da vaga",
+    "tipoContratacaoPerfilVaga":"clt",
+    "tipoJornadaPerfilVaga":"liberal",
+    "localEnderecoCEPPerfilVaga":"12345-111",
+    "localEnderecoPerfilVaga":"rua, bairro",
+    "localEnderecoNumeroPerfilVaga":"1234",
+    "faixaEtariaInicioPerfilVaga":"21",
+    "faixaEtariaFimPerfilVaga":"35",
+    "tempoExperienciaPerfilVaga":"2 anos",
+    "faixaSalarioInicioPerfilVaga":"2500.00",
+    "dataInicioDivulgacaoPerfilVaga":"01/1/2021",
+    "datafinaldivulgacaoPerfilVaga":"31/01/2021",
+    "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+    ],
+     "PalavraChave" :[
+         {
+            "DescricaoPalavraChave":"Chave",
+         }
+    ],
+}
+```
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Vaga inserida com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟧PUT</b> /atualizar_vaga/[Id da Vaga]/ 
+</summary>
+Atualiza uma vaga já existente.
+<p>Exemplo de parâmetro:</p>
+
+``` json
+{
+    "VagaIdExterno":"1",
+    "tituloVaga":"desc da vaga",
+    "tipoContratacaoPerfilVaga":"clt",
+    "tipoJornadaPerfilVaga":"liberal",
+    "localEnderecoCEPPerfilVaga":"12345-123",
+    "localEnderecoPerfilVaga":"rua, bairro",
+    "localEnderecoNumeroPerfilVaga":"1234",
+    "faixaEtariaInicioPerfilVaga":"21",
+    "faixaEtariaFimPerfilVaga":"31",
+    "tempoExperienciaPerfilVaga":"1 anos",
+    "faixaSalarioInicioPerfilVaga":"2300.00",
+    "dataInicioDivulgacaoPerfilVaga":"01/1/2021",
+    "datafinaldivulgacaoPerfilVaga":"31/01/2021",
+    "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+    ],
+     "PalavraChave" :[
+         {
+            "DescricaoPalavraChave":"Chave",
+         }
+    ],
+}
+```
+
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Vaga atualizada com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟥DELETE</b> /excluir_vaga/[Id da Vaga]
+</summary>
+Exclui a vaga baseada no parâmetro, caso encontrada.
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Vaga excluída com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟦GET</b> /buscar_curriculo/[Id do currículo]
+</summary>
+
+<p>Response 200:</p>
+
+``` json
+{
+    "InscritoIdExterno":"1",
+    "rgInscrito":"123.123.123-12",
+    "dataNascimentoInscrito":"25/09/2000",
+    "sexoInscrito":"masculino",
+    "telefoneCelularInscrito":"(12)91231235",
+    "jornadaDesejadaInscrito":"padrão",
+    "tipoContratoDesejadoInscrito":"clt",
+    "EmailInscrito":"email@email.com",
+    "perfilProfissionalTituloInscrito":"full stack developer",
+    "perfilProfissionalDescricaoInscrito":"pleno com conhecimento em desenvolvimento full stack com node, dotnet, angular e react",
+    "nomeCompletoInscrito":"arthur c",
+    "enderecoCEPInscrito":"12345-608",
+    "enderecoLocalizacaoInscrito":"rua, bairro",
+    "complementoInscrito":"",
+    "enderecoLocalizacaoLatitudeInscrito":"",
+    "enderecoLocalizacaoLongitudeInscrito":"",
+    "experienciaProfissional": [
+        {
+         "descricao": "Desenvolvimento com front e back end",
+         "duracaoTempoExperiencia":"2 anos",
+         }
+      ],
+      "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+      ],
+    "formacao": [
+        {
+            "curso":"banco de dados",
+            "Dataformacao":"22/06/2020",
+            "intituicao":"fatec"
+        }
+      ],
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟩POST</b> /inserir_curriculo
+</summary>
+Cadastra um currículo.
+<p>Exemplo de parâmetro:</p>
+
+``` json
+{
+    "InscritoIdExterno":"1",
+    "rgInscrito":"123.123.123-12",
+    "dataNascimentoInscrito":"25/09/2000",
+    "sexoInscrito":"masculino",
+    "telefoneCelularInscrito":"(12)981612345",
+    "jornadaDesejadaInscrito":"padrão",
+    "tipoContratoDesejadoInscrito":"clt",
+    "EmailInscrito":"email@email.com",
+    "perfilProfissionalTituloInscrito":"full stack developer",
+    "perfilProfissionalDescricaoInscrito":"pleno com conhecimento em desenvolvimento full stack com node, dotnet, angular e react",
+    "nomeCompletoInscrito":"arthur c",
+    "enderecoCEPInscrito":"12345-608",
+    "enderecoLocalizacaoInscrito":"rua, bairro",
+    "complementoInscrito":"",
+    "enderecoLocalizacaoLatitudeInscrito":"",
+    "enderecoLocalizacaoLongitudeInscrito":"",
+
+    "experienciaProfissional": [
+        {
+         "descricao": "Desenvolvimento com front e back end",
+         "duracaoTempoExperiencia":"2 anos",
+         }
+      ],
+
+      "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+      ],
+
+    "formacao": [
+        {
+            "curso":"banco de dados",
+            "Dataformacao":"22/06/2020",
+            "intituicao":"fatec"
+        }
+      ],
+}
+```
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Currículo inserido com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟧PUT</b> /atualizar_curriculo/[Id do currículo]
+</summary>
+Atualiza um currículo.
+<p>Exemplo de parâmetro:</p>
+
+``` json
+{
+    "InscritoIdExterno":"1",
+    "rgInscrito":"123.123.123-12",
+    "dataNascimentoInscrito":"25/09/2000",
+    "sexoInscrito":"masculino",
+    "telefoneCelularInscrito":"(12)981612345",
+    "jornadaDesejadaInscrito":"padrão",
+    "tipoContratoDesejadoInscrito":"clt",
+    "EmailInscrito":"email@email.com",
+    "perfilProfissionalTituloInscrito":"full stack developer",
+    "perfilProfissionalDescricaoInscrito":"pleno com conhecimento em desenvolvimento full stack com node, dotnet, angular e react",
+    "nomeCompletoInscrito":"arthur c",
+    "enderecoCEPInscrito":"12345-608",
+    "enderecoLocalizacaoInscrito":"rua, bairro",
+    "complementoInscrito":"",
+    "enderecoLocalizacaoLatitudeInscrito":"",
+    "enderecoLocalizacaoLongitudeInscrito":"",
+
+    "experienciaProfissional": [
+        {
+         "descricao": "Desenvolvimento com front e back end",
+         "duracaoTempoExperiencia":"1 anos",
+         }
+      ],
+
+      "competencia": [
+        {
+         "descricao": "poliglota",
+        }
+      ],
+
+    "formacao": [
+        {
+            "curso":"banco de dados",
+            "Dataformacao":"22/06/2020",
+            "intituicao":"fatec"
+        }
+      ],
+}
+```
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Currículo atualizado com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟥DELETE</b> /excluir_curriculo/[Id do currículo]
+</summary>
+Exclui o currículo baseado no parâmetro, caso encontrado.
+<p>Response 200:</p>
+
+``` json
+{
+   "message": "Currículo Excluído com sucesso"
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟦GET</b> /buscaPorVaga/[Id da Vaga]
+</summary>
+Realiza uma busca por currículo baseada na vaga enviada por parâmetro e retorna os ids dos candidatos.
+<p>Response 200:</p>
+
+``` json
+{
+    "candidatos": [
+        "123","433","54","1123"
+    ],
+    "message": ""
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟦GET</b> /busca_VT0/11/[Id da Vaga]
+</summary>
+Realiza uma busca por currículos próximos à uma vaga enviada por parâmetro e retorna os ids dos candidatos.
+<p>Response 200:</p>
+
+``` json
+{
+    "candidatos": [
+        "123","433","54","1123"
+    ],
+    "message": ""
+}
+```
+</details>
+
+<details>
+<summary>
+<b>🟦GET</b> /buscaFiltrada
+</summary>
+<p>Recebe um array de parâmetros dinâmicos e executa uma busca no banco de dados.<br>
+A busca pode receber parâmetros de três tipos: Texto, data e localização.</p>
+
+**Texto:**
+- "tipo"  : Tipo de busca a ser realizada.
+- "chave" : campo em que será realizada a busca. (String)
+- "valor" : Campo que contém o conteúdo a ser buscado. Pode ser uma String ou um Array de String.(String|Array<String>)
+
+**Localização:**
+- "tipo"    : Tipo de busca a ser realizada.
+- "chave"   : campo em que será realizada a busca. (String)
+- "valor"   : Campo que contém as coordenadas do ponto central ao qual a busca será realizada.(Array<Float>)
+- "mindist" : Campo que contém a distância mínima necessária dos inscritos para o ponto central para entrar nas condições da busca.
+- "maxdist" : Campo que contém a distância máxima dos inscritos para o ponto central para entrar nas condições da busca.
+
+**Data:**
+- "tipo" : Tipo de busca a ser realizada.
+- "chave": campo em que será realizada a busca. (String)
+- "operador": Campo que contém o parâmetro de data.(String)
+
+\*Os operadores são funções para comparar determinado parâmetro. Os operadores aceitos na api são:
+- eq  : Encontra valores que são iguais ao valor especificado 
+- ne  : Encontra valores que são diferentes ao valor especificado
+- gt  : Encontra valores que são maiores ao valor especificado
+- gte : Encontra valores que são maiores ou iguais ao valor especificado
+- lt  : Encontra valores que são menores ao valor especificado
+- lte : Encontra valores que são menores ou iguais ao valor especificado
+
+<p>Exemplo de parâmetros de busca:</p>
+
+``` json
+[
+ {
+  "chave" : "rgInscrito",
+  "valor" : "123",
+  "tipo"  : "texto"
+ },
+ {
+  "chave" : "formacao.curso",
+  "valor" : ["banco", "Suporte"],
+  "tipo"  : "texto"
+ },
+ {
+  "tipo"  : "distancia",
+  "chave" : "distancia",
+  "valor" : [-23.2322,-45.9000],
+  "mindist" : 0,
+  "maxdist" : 2500
+ },
+ {
+  "tipo"  : "data",	
+  "chave" : "dataNascimentoInscrito",
+  "gte"   : "2013-09-0100:00:00"
+ }
+]
+```
+</details>
+
 **[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**
+
 ### Tecnologias Utilizadas
 * Python - Linguagem principal;
+* Django - Framework utilizado;
 * MongoDB - Banco de Dados;
-* Power BI - Exibição dos dados;
+
 ## Contribuições Pessoais
+Nesse projeto fui responsável pela criação do método para update e delete de currículos por ID, assim como correção de bugs em outras interfaces e testes via Postman. Também realizei o deploy da API através do [Heroku App](https://www.heroku.com/).
 
 #### Hard Skills Efetivamente Desenvolvidas
+* Django - Conhecimento sobre o framework aprimorado;
+* MongoDB - Aprendi a usar com ajuda;
+* Postman - Aprendi a usar com autonomia;
 
 #### Soft Skills Efetivamente Desenvolvidas
+* Resolução de problemas: Enfrentamos alguns problemas que forçaram o aprimoramento dessa soft skill.
+* Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
 
 ## Meus Principais Conhecimentos
 * Python
