@@ -535,6 +535,21 @@ Nesse projeto fui responsável pela criação do método para update e delete de
 #### Soft Skills Efetivamente Desenvolvidas
 * Resolução de problemas: Enfrentamos alguns problemas que forçaram o aprimoramento dessa soft skill.
 * Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
+   
+### Em 2021-2
+**[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
+
+### Tecnologias Utilizadas
+
+
+## Contribuições Pessoais
+
+
+#### Hard Skills Efetivamente Desenvolvidas
+
+
+#### Soft Skills Efetivamente Desenvolvidas
+
 
 ## Meus Principais Conhecimentos
 * Python
