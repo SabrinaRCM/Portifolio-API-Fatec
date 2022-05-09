@@ -537,6 +537,8 @@ Nesse projeto fui responsável pela criação do método para update e delete de
 * Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
    
 ### Em 2021-2
+   
+O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes. 
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
 ### Tecnologias Utilizadas
