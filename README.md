@@ -538,14 +538,18 @@ Nesse projeto fui responsável pela criação do método para update e delete de
    
 ### Em 2021-2
    
-O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes. 
+O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado e dashboard com análise das informações solicitadas pelo cliente, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes. 
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
 ### Tecnologias Utilizadas
-
+* Sql
+* Java
+* Power BI
+* Docker
+* Pentaho
 
 ## Contribuições Pessoais
-
+Nesse projeto fui responsável pelo particinamento do banco de dados pensando na escalabilidade horizontal e por auxiliar o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo Power BI para se adequar a necessidade do cliente. Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
 
 #### Hard Skills Efetivamente Desenvolvidas
 
