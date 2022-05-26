@@ -542,17 +542,17 @@ O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.hea
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
 ### Tecnologias Utilizadas
-* Sql
-* Java
-* Power BI
-* Docker
-* Pentaho
+* Sql - Banco de dados;
+* Java - Linguagem principal;
+* Power BI - Dashboard;
+* Docker - CI/CD;
+* Pentaho - ETL;
 
 ## Contribuições Pessoais
 Nesse projeto fui responsável pelo particinamento do banco de dados pensando na escalabilidade horizontal e por auxiliar o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo Power BI para se adequar a necessidade do cliente. Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
 
 #### Hard Skills Efetivamente Desenvolvidas
-
+* Mysql - Aprendi 
 
 #### Soft Skills Efetivamente Desenvolvidas
 
