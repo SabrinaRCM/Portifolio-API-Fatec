@@ -109,6 +109,7 @@ O projeto teve como Parceiro Acadêmico a empresa [JetSoft](https://www.jetsoft.
 A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme a documentação.<br><br>
 **Documentação da API**
 ![Screenshot_25](https://user-images.githubusercontent.com/37507613/171312353-147031b7-6178-4eae-a7ab-84bbc65f8ca4.png)
+![EstruturaAPI](https://user-images.githubusercontent.com/37507613/172092266-2826457c-820a-4b83-be46-7fa908664820.png)
 **[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**
 
 ### Tecnologias Utilizadas
