@@ -30,13 +30,11 @@ Criei o wireframe e comecei a desenvolver utilizando HTML, CSS, JavaScript combi
 Também fui responsável pela manipulação das bibliotecas que iriam receber os dados da raspagem, realizar leitura, e plotagem.
 
 #### Hard Skills Efetivamente Desenvolvidas
-* Python: Eu havia tido contato com python uma única vez anterior ao projeto em um evento. Neste projeto tive a oportunidade de compreender melhor como criar e executar um projeto com autonomia.
-* Django: Tive a oportunidade de conhecer e entender o framework ao mesmo tempo perceber como funciona uma biblioteca em um projeto python.
-* PowerBI: Neste projeto utilizamos o PowerBi para exibir dados em forma de gráficos, foi meu primeiro contato com essa ferramenta .
-* Pandas / Matplotlib: Aprendi a usar com autonomia.
-* Html5, JavaScript, CSS, Bootstrap 4: Aprendi a usar com autonomia;
-* Wareframe: Aprendi a fazer com autonomia;
-* Metodologias Scrum: Aprendi na prática.
+* Python: Eu havia tido contato com python uma única vez anterior ao projeto em um evento. Neste projeto tive a oportunidade de compreender melhor como criar e executar um projeto com autonomia incluindo o uso das bibliotecas Django, Pandas e Matplotlib. 
+* PowerBI: Primeiro contato com a ferramenta, aprendi a usar boa partes dos recursos de forma que conseguiria usar novamente em um outro projeto futuro.
+* Html5, JavaScript, CSS, Bootstrap 4: Tecnologias que eu já havia tido contado anteriormente no curso técnico e tive oportunidade de evoluir meu conhecimento ao criar interfaces para o projeto;
+* Wareframe: Oportunidade para desenvolver e evoluir conhecimentos previamente adquiridos na criação de wareframe;
+* Metodologias Scrum: Conhecia um pouco da metodologia scrum na teoria e neste projeto foi desenvolvido na prática pela primeira vez o que serviria de base para futuros projetos.
 
 #### Soft Skills Efetivamente Desenvolvidas
 * Integração com equipe: Eu estava na lista de espera da Fatec, e quando me chamaram para começar, as aulas já estavam com 3 semanas, então tive que entrar em um grupo formado. Todos já estavam integrados e eu tive um pouco mais de trabalho para me encaixar na equipe e no projeto no início. 
