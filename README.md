@@ -30,9 +30,9 @@ Criei o wireframe e comecei a desenvolver utilizando HTML, CSS, JavaScript combi
 Também fui responsável pela manipulação das bibliotecas que iriam receber os dados da raspagem, realizar leitura, e plotagem.
 
 #### Hard Skills Efetivamente Desenvolvidas
-* Python: Aprendi como criar e executar um projeto com autonomia.
-* Django: Aprendi a usar com ajuda.
-* PowerBI: Aprendi a usar com ajuda.
+* Python: Eu havia tido contato com python uma única vez anterior ao projeto em um evento. Neste projeto tive a oportunidade de compreender melhor como criar e executar um projeto com autonomia.
+* Django: Tive a oportunidade de conhecer e entender o framework ao mesmo tempo perceber como funciona uma biblioteca em um projeto python.
+* PowerBI: Neste projeto utilizamos o PowerBi para exibir dados em forma de gráficos, foi meu primeiro contato com essa ferramenta .
 * Pandas / Matplotlib: Aprendi a usar com autonomia.
 * Html5, JavaScript, CSS, Bootstrap 4: Aprendi a usar com autonomia;
 * Wareframe: Aprendi a fazer com autonomia;
