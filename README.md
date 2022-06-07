@@ -7,13 +7,6 @@ Cursei junto com o ensino médio o técnico em administração de empresas e, em
 # Meus Projetos
 
 ### Em 2019-2
-<div  align="center">
-
-<img  src="./img/logo_BlackMamba.jpg"  width="150"  />
-
-<div  height="50"></div>
-
-</div>
 ![logo](https://user-images.githubusercontent.com/37507613/172276689-9b95e8be-3187-4f86-8884-f3d9a2fcaca1.jpg)<br>
 O primeiro projeto foi proposto em parceria com a própria [Fatec](https://fatecsjc-prd.azurewebsites.net/) no qual deveriamos solucionar um problema de nossa escolha com a criação de um webbot.<br>
 Nosso bot foi criado pensando em pessoas que pensam em investir em ações da bolsa de valores, porém tem pouco conhecimento, não sabe por onde começar ou tem pouco tempo para procurar e analisar a melhor escolha. O bot BlackMamba foi criado para suprir essas necessidades e possui funções para raspagem de dados de ações escolhidas pelo usuário diretamente da bolsa de valores e que poderão receber por email, Telegram ou consultar online estatisticas dessa ação, bem como, histórico dos útlimos 12 meses para ajudar o usuário a acompanhar e decidir se aquele investimento será benéfico ou não.<br>
