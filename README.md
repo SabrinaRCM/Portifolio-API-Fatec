@@ -45,7 +45,6 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 ![bridges-logo](https://user-images.githubusercontent.com/37507613/172277339-df72ecc9-7635-49a8-8751-4b9f24004123.png)<br>
 O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
 A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas, importar arquivos csv do cliente em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
-![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
 
 ### Tecnologias Utilizadas
@@ -60,7 +59,9 @@ A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como
 
 ## Contribuições Pessoais
 Nesse projeto fui responsável pela criação de toda a interface utilizada, incluindo o gráfico Gantt e algumas de suas funcionalidades em back end.<br>
-Também atuei como Scrum Master participando das reuniões semanais, dando apoio a equipe e trabalhando junto com o Product Owner para definir as tarefas contidas no backlog. As tarefas eram distribuídas de acordo com as habilidades de cada um.
+Também atuei como Scrum Master participando das reuniões semanais, dando apoio a equipe e trabalhando junto com o Product Owner para definir as tarefas contidas no backlog. As tarefas eram distribuídas de acordo com as habilidades de cada um.<br><br>
+O gif abaixo apresenta funcionamento do gráfico gantt.
+![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)<br>
 
 #### Hard Skills Efetivamente Desenvolvidas
 * Django - Aprendi mais sobre o Django e suas funcionalidades, sendo capaz de iniciar e configurar um novo projeto sozinha, além de utilizar as bibliotecas PyMySQL e Crispy Forms pela primeira vez, também aprendi a fazer requisições ajax em python.
@@ -76,7 +77,6 @@ Também atuei como Scrum Master participando das reuniões semanais, dando apoio
 O projeto teve como Parceiro Acadêmico a empresa [SPC](https://www.spcbrasil.org.br/). Nossa proposta era criar um complemento para o produto Cadastro Positivo do SPC Brasil.<br>
 A aplicação **Score Wizard** (do inglês, Pontuação Inteligente) foi criada com objetivo de permitir que pessoas fisícas e jurídicas consigam ter maior controle sobre como seu Score sofre alterações positivas e negativas. O score é importante para conseguir alguns objetivos no mercado como: empréstimos, cartão de crédito e financiamento. Quanto maior o score, maiores são as chances de conseguir crédito com as empresas especializadas nisso.<br> 
 O usuário possui um simulador onde pode escolher seu objetivo e assim receber algumas metas que irão auxiliar no aumento do Score e assim cumprir o objetivo. Além disso, foi acrescentado uma especie de jogo onde algumas ações como pagamento de contas em dia, acrescentará pontos de experiência no perfil permitindo que seja comprado na loja do SPC alguns serviços adicionais para monitoramento do CPF ou CNPJ.<br>
-![scorewizardlogin](https://user-images.githubusercontent.com/37507613/142071331-fc0f3880-0c52-4ad7-82ee-ee4ec11bfb34.png)<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/score-wizard-3-semestre)**
 
 ### Tecnologias Utilizadas
@@ -89,7 +89,9 @@ O usuário possui um simulador onde pode escolher seu objetivo e assim receber a
 
 ## Contribuições Pessoais
 Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto e auxiliando a equipe com o entendimento do mesmo, com o Scrum Master estruturamos as tarefas e divimos de acordo com as prioridades.<br>
-Fui responsável também pela construção da interface front end utilizada.
+Fui responsável também pela construção da interface front end utilizada.<br><br>
+A imagem abaixo mostra a tela de login.
+![scorewizardlogin](https://user-images.githubusercontent.com/37507613/142071331-fc0f3880-0c52-4ad7-82ee-ee4ec11bfb34.png)<br>
 
 #### Hard Skills Efetivamente Desenvolvidas
 * MySql + Java - Fixei o que foi aprendido no semestre ao desenvolver uma aplicação em Java utilizando o banco de dados MySql, linguagem que utilizei pela primeira vez; 
