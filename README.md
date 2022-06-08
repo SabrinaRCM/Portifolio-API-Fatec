@@ -73,7 +73,7 @@ O gif abaixo apresenta funcionamento do gráfico gantt.
 * Organização - Por estar em casa, acabamos organizando mal o nosso tempo, por isso foi preciso aprender como organizar melhor.
 
 ### Em 2020-2
-![logo](https://user-images.githubusercontent.com/37507613/172277395-62c54134-3035-40f4-a2e8-7f7a29e7f936.png)<br>
+![logo_ScoreWizard](https://user-images.githubusercontent.com/37507613/172676224-a9c9818c-39a5-4e12-8625-ae7c57552711.jpeg)<br>
 O projeto teve como Parceiro Acadêmico a empresa [SPC](https://www.spcbrasil.org.br/). Nossa proposta era criar um complemento para o produto Cadastro Positivo do SPC Brasil.<br>
 A aplicação **Score Wizard** (do inglês, Pontuação Inteligente) foi criada com objetivo de permitir que pessoas fisícas e jurídicas consigam ter maior controle sobre como seu Score sofre alterações positivas e negativas. O score é importante para conseguir alguns objetivos no mercado como: empréstimos, cartão de crédito e financiamento. Quanto maior o score, maiores são as chances de conseguir crédito com as empresas especializadas nisso.<br> 
 O usuário possui um simulador onde pode escolher seu objetivo e assim receber algumas metas que irão auxiliar no aumento do Score e assim cumprir o objetivo. Além disso, foi acrescentado uma especie de jogo onde algumas ações como pagamento de contas em dia, acrescentará pontos de experiência no perfil permitindo que seja comprado na loja do SPC alguns serviços adicionais para monitoramento do CPF ou CNPJ.<br>
