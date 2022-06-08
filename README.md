@@ -104,10 +104,11 @@ A imagem abaixo mostra a tela de login.
 ### Em 2021-1
 ![Logo_Pythaon](https://user-images.githubusercontent.com/37507613/172277894-f9dc9736-1462-4736-aad1-6d8b1daecb5a.png)<br>
 O projeto teve como Parceiro Acadêmico a empresa [JetSoft](https://www.jetsoft.com.br/). Nossa proposta consistia em criar um sistema de cadastro e busca de currículos baseados em critérios estabelecidos pelo cliente.<br>
-A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme documentação.<br><br>
-A imagem a seguir demonstra as rotas utilizadas para estruturação da API.
+A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme documentação.<br>
+**[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**<br><br>
+A imagem a seguir demonstra as rotas utilizadas para estruturação da API.<br><br>
 ![EstruturaAPI](https://user-images.githubusercontent.com/37507613/172092266-2826457c-820a-4b83-be46-7fa908664820.png)
-**[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**
+
 
 ### Tecnologias Utilizadas
 * Python - Linguagem principal;
