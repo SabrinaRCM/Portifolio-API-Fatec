@@ -1,7 +1,6 @@
 # Sabrina Rafaela Calado Mariano
 
 ### Sobre mim
-
 Cursei junto com o ensino médio o técnico em administração de empresas e, em 2013, comecei a trabalhar com administração e cheguei a iniciar dois cursos superiores em outras áreas, um seguido do outro, mas ainda não sentia que eu me encaixava no curso ou no emprego. Em 2018, surgiu a vontade e oportunidade de começar um curso técnico no Senac na área de informática, na qual eu já tinha tido contato antes mas nunca pensei em trabalhar com isto. A convite de um amigo que fazia Banco de Dados na Fatec, comecei a participar de eventos de programação e, apesar de não entender muito, fui anotando o que achava relevante para consultar posteriormente conforme aprendia. No segundo semestre de 2019, eu já estava terminando o curso de informática no Senac, ao mesmo tempo comecei a trabalhar como suporte técnico para uma empresa que produz software próprio e iniciei o curso de Banco de Dados na Fatec. Em 2021, recebi a proposta desta mesma empresa para trabalhar como Front-end em um de seus aplicativos no qual trabalhei por 6 meses até receber uma proposta de outra empresa para o cargo de desenvolvedora no qual permaneço até então.
 
 # Meus Projetos
@@ -52,7 +51,7 @@ A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como
 * FrameWork Django 3 - interface WEB
 * MySQL - Banco de Dados
 * Frappe Gantt - interface do gráfico gantt
-* Principais Bibliotecas Python:  
+* Principais Bibliotecas Python:
      **PyMySQL** - interação com nosso Banco de Dados;<br>
      **Crispy Forms** - renderizar formulários com Bootstrap;<br>
      **Import-export** - para importar e exportar arquivos de excel .csv;
@@ -138,7 +137,9 @@ O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.hea
 * Pentaho - Ferramenta usada para criação do ETL;
 
 ## Contribuições Pessoais
-Nesse projeto fui responsável por avaliar as opções de escalabilidade do projeto, no qual foi aplicado particinamento do banco de dados pensando na escalabilidade horizontal e por auxiliar o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo PowerBI para se adequar a necessidade do cliente. Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
+Nesse projeto fui responsável por avaliar as opções de escalabilidade do projeto, no qual foi aplicado particinamento do banco de dados pensando na escalabilidade horizontal.<br> 
+Também auxiliei o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo PowerBI para se adequar a necessidade do cliente.<br> 
+Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
 
 #### Hard Skills Efetivamente Desenvolvidas
 * Mysql - Aprendi o conceito e aplicação de particionamento de banco de dados do MySql;
