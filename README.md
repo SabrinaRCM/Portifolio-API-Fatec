@@ -128,7 +128,7 @@ Nesse projeto fui responsável pela criação do método para update e delete de
    
 ### Em 2021-2
    ![Logo_PythaOff](https://user-images.githubusercontent.com/37507613/172277955-e4b2e78f-ff7c-4c25-98c6-b9939aeabd68.png)<br>
-O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado e dashboard com análise das informações solicitadas pelo cliente, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes. 
+O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado e dashboard com análise das informações solicitadas pelo cliente, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
 ### Tecnologias Utilizadas
