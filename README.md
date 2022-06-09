@@ -150,6 +150,28 @@ Auxiliei na solução de problemas com CI/CD relacionado ao Docker.
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;
 Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
+### Em 2022-1
+
+**[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
+
+### Tecnologias Utilizadas
+* Python - Linguagem principal utilizada;
+* Peewee - Ferramenta utilizada para criação de ORM;
+* Sqlite - Database utilizada.
+
+## Contribuições Pessoais
+Neste projeto fui responsável pela solução de Exclusão de dados.<br> 
+Para que serve? <br> 
+A lei de LGPD, art. 18 prevê que o titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16. <br> 
+Para que essa lei seja cumprida, a empresa deve adequar seu banco de dados para que um dado excluído mediante solicitação do titular não sejam restaurados no backup ou 
+
+
+#### Hard Skills Efetivamente Desenvolvidas
+
+
+#### Soft Skills Efetivamente Desenvolvidas
+
+
 ## Meus Principais Conhecimentos
 * Python
 * Django
