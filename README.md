@@ -170,7 +170,8 @@ Neste projeto fui responsável pela solução de Exclusão de dados.<br>
 O titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16 da LGPD.<br> 
 Para que essa lei seja cumprida, a empresa deve adequar seu banco de dados para que um dado excluído mediante solicitação do titular não sejam restaurados no backup ou 
 de outra forma.<br> 
-Como parte da solução, implementei um algoritmo de criptografia utilizando a biblioteca do python **cryptodome** que conta com o método de criptografia AES. 
+Como parte da solução, implementei um algoritmo de criptografia utilizando a biblioteca do python **pycryptodome**. Foram criadas as funções de encrypt e decrypt através do método de criptografia AES, gerando uma chave de 256 bits no momento da inserção dos dados que é armazenada em um banco de dados separado especialmente criado para este propósito sendo o único meio para obter a leitura dos dados criptografados. 
+[printar trecho do código de criptografar]
 
 #### Hard Skills Efetivamente Desenvolvidas
 
