@@ -152,11 +152,11 @@ Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas d
 
 ### Em 2022-1
 O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br>
-Opt-in/Opt-out
-•	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao preencher um formulário online sempre que dados pessoais forem solicitados, além de deixar claro a intenção do uso dele, enquanto o Opt-out garante que a permissão seja revogada caso ele deseje parar de receber e-mails. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.
-Anonimização
+Opt-in/Opt-out<br>
+•	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao preencher um formulário online sempre que dados pessoais forem solicitados, além de deixar claro a intenção do uso dele, enquanto o Opt-out garante que a permissão seja revogada caso ele deseje parar de receber e-mails. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.<br>
+Anonimização<br>
 •	Sendo referenciado no 5º, III da LGPD a anonimização diz respeito aquele que era relativo a uma pessoa, mas foi processado para que não se vincule a mesma. Em nossa aplicação será abordada através da criação de um sistema de recomendação de locais utilizando a geolocalização se for permitida pelo usuário.
-Direito de Exclusão
+Direito de Exclusão<br>
 •	Art. 5°, XIV prevê o Direito de que os dados do usuário sejam eliminados caso o titular solicite. A empresa deve adequar o banco de dados para que não seja recuperado nem mesmo após restauração de backup. Será representado na nossa aplicação a inserção de dados considerados sensíveis criptografados, cuja chave de descriptografia é armazenada em um banco separado do principal e caso solicitado a mesma é excluída impossibilitando assim acesso aos dados, pois uma vez que a chave é perdida, não há como recuperar os dados.
 **[GIT para projeto]()**
 
