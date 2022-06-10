@@ -151,20 +151,26 @@ Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram dive
 Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
 ### Em 2022-1
-
-**[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
+O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br>
+Opt-in/Opt-out
+•	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao preencher um formulário online sempre que dados pessoais forem solicitados, além de deixar claro a intenção do uso dele, enquanto o Opt-out garante que a permissão seja revogada caso ele deseje parar de receber e-mails. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.
+Anonimização
+•	Sendo referenciado no 5º, III da LGPD a anonimização diz respeito aquele que era relativo a uma pessoa, mas foi processado para que não se vincule a mesma. Em nossa aplicação será abordada através da criação de um sistema de recomendação de locais utilizando a geolocalização se for permitida pelo usuário.
+Direito de Exclusão
+•	Art. 5°, XIV prevê o Direito de que os dados do usuário sejam eliminados caso o titular solicite. A empresa deve adequar o banco de dados para que não seja recuperado nem mesmo após restauração de backup. Será representado na nossa aplicação a inserção de dados considerados sensíveis criptografados, cuja chave de descriptografia é armazenada em um banco separado do principal e caso solicitado a mesma é excluída impossibilitando assim acesso aos dados, pois uma vez que a chave é perdida, não há como recuperar os dados.
+**[GIT para projeto]()**
 
 ### Tecnologias Utilizadas
-* Python - Linguagem principal utilizada;
-* Peewee - Ferramenta utilizada para criação de ORM;
-* Sqlite - Database utilizada.
+* Python - Linguagem de programação de propósito geral e de alto nível, principal utilizada para construção do sistema e suas funcionalidades;
+* Peewee - Ferramenta de Object-relational mapping(ORM) destinado a criação e gerenciamento de bancos de dados relacionais através de objetos Python, foi utilizada para construção das tabelas do sistema;
+* Sqlite - Banco de dados de complexidade baixa usado em aplicações que priorizam a simplicidade de implementação e administração, pois não contam com a utilização de um Sistema Gerenciador de Banco de Dados (SGBD). Como o propósito do projeto é demonstrar a solução, escolhemos o Sqlite pela sua facilidade. 
 
 ## Contribuições Pessoais
 Neste projeto fui responsável pela solução de Exclusão de dados.<br> 
-Para que serve? <br> 
-A lei de LGPD, art. 18 prevê que o titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16. <br> 
+O titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16 da LGPD.<br> 
 Para que essa lei seja cumprida, a empresa deve adequar seu banco de dados para que um dado excluído mediante solicitação do titular não sejam restaurados no backup ou 
-
+de outra forma.<br> 
+Como parte da solução, implementei um algoritmo de criptografia utilizando a biblioteca do python **cryptodome** que conta com o método de criptografia AES. 
 
 #### Hard Skills Efetivamente Desenvolvidas
 
