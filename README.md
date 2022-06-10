@@ -123,7 +123,7 @@ Nesse projeto fui responsável pela criação do método para update e delete de
 * Postman - Aprendi a utilizar para realizar teste de API web.
 
 #### Soft Skills Efetivamente Desenvolvidas
-* Resolução de problemas: Enfrentamos alguns problemas que forçaram o aprimoramento dessa soft skill.
+* Resiliência: Enfrentamos alguns problemas que forçaram o aprimoramento dessa soft skill.
 * Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
    
 ### Em 2021-2
@@ -170,14 +170,27 @@ Neste projeto fui responsável pela solução de Exclusão de dados.<br>
 O titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16 da LGPD.<br> 
 Para que essa lei seja cumprida, a empresa deve adequar seu banco de dados para que um dado excluído mediante solicitação do titular não sejam restaurados no backup ou 
 de outra forma.<br> 
-Como parte da solução, implementei um algoritmo de criptografia utilizando a biblioteca do python **pycryptodome**. Foram criadas as funções de encrypt e decrypt através do método de criptografia AES, gerando uma chave de 256 bits no momento da inserção dos dados que é armazenada em um banco de dados separado especialmente criado para este propósito sendo o único meio para obter a leitura dos dados criptografados. 
-[printar trecho do código de criptografar]
-
+Como parte da solução, implementei um algoritmo de criptografia utilizando a biblioteca do python **pycryptodome**. Foram criadas as funções de encrypt e decrypt através do método de criptografia AES, gerando uma chave de 256 bits no momento da inserção dos dados que é armazenada em um banco de dados separado, especialmente criado para este propósito, sendo o único meio para obter a leitura dos dados criptografados.<br><br>
+O trecho abaixo mostra o código usado para descriptografia:
+```python
+ def decrypt(nonce, ciphertext, tag, key):
+        cipher = AES.new(key, AES.MODE_EAX, nonce=nonce)
+        plaintext = cipher.decrypt(ciphertext)
+        try:
+            cipher.verify(tag)
+            return plaintext.decode()
+        except:
+            return False
+```
 #### Hard Skills Efetivamente Desenvolvidas
-
+* Criptografia AES - Neste projeto foi utilizado o algoritmo de criptografia AES (Advanced Encryption Standard) capaz de usar chaves criptográficas de 128, 192 e 256 bits para criptografar e descriptografar dados em blocos de 128 bits. O algoritmo AES é uma cifra de bloco simétrico, ou seja, utiliza a mesma chave para cifrar e descifrar os dados e cada chave é única, caso seja perdida não será possível recuperar as informações cifradas. Pude aprender como utilizar o algoritmo e entender um pouco sobre o conceito de criptografia;
+* Peewee - O Peewee é uma ORM destinada à projetos de pequeno/médio porte em python possuindo suporte nativo a SQLite, PostgreSQL e MySQL, além de ter uma documentação simples e acessível. A implementação desta ferramenta no projeto possibilitou estudar seu uso em uma aplicação mostrando ser efeiciente ao que se propoem;
+* LGPD - A Lei de Projeção de Dados (LGPD) foi o principal foco de estudo onde pude conhecer as leis contidas nessa e algumas adequações que empresas tiveram que fazer para que seja cumprida;
+* Exclusão de Dados - Estudo focado principalmente no tópico de exclusão de dados da LGPD que apliquei neste semestre, no qual me permitiu entender mais sobre o Direito do titular a essa solicitação além de possibilitar o desenvolvimento de uma solução a respeito dessa lei.
 
 #### Soft Skills Efetivamente Desenvolvidas
-
+* Persistencia - Ao longo do desenvolvimento eu testei vários outros algoritmos até encontrar um que se encaixasse no que procurava, durante esse tempo foi preciso continuar tentando e se motivando com a ajuda dos colegas.
+* Concentração - Habilidade desenvolvida devido ao tempo de estudo necessário para implementação de um algoritmo que suprisse as necessidades do projeto.
 
 ## Meus Principais Conhecimentos
 * Python
