@@ -147,7 +147,7 @@ Auxiliei na solução de problemas com CI/CD relacionado ao Docker.
 * Docker - Aprendi conceitos e aplicações para o Docker. Em nosso projeto foi utilizado para criar o ambiente necessário para criarmos os testes de CI.
 
 #### Soft Skills Efetivamente Desenvolvidas
-Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;
+Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
 Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
 ### Em 2022-1
