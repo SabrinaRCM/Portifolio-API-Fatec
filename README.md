@@ -153,7 +153,7 @@ Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas d
 ### Em 2022-1
 O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br><br>
 **Opt-in/Opt-out**<br>
-•	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao preencher um formulário online sempre que dados pessoais forem solicitados, além de deixar claro a intenção do uso dele, enquanto o Opt-out garante que a permissão seja revogada caso ele deseje parar de receber e-mails. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.<br><br>
+•	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao aceitar o termo de uso e itens conforme previstos no mesmo sempre que dados pessoais forem solicitados, deixando claro a intenção do uso deles, como o recebimento de propagandas por email, sms e outros canais de comunicação. Enquanto o Opt-out garante que a permissão seja revogada caso ele deseje deixar de receber propagandas ou não deseje mais compartilhar seus dados. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.<br><br>
 **Anonimização**<br>
 •	Sendo referenciado no 5º, III da LGPD a anonimização diz respeito aquele que era relativo a uma pessoa, mas foi processado para que não se vincule a mesma. Em nossa aplicação será abordada através da criação de um sistema de recomendação de locais utilizando a geolocalização se for permitida pelo usuário.<br><br>
 **Direito de Exclusão**<br>
@@ -190,7 +190,7 @@ O trecho abaixo mostra o código usado para descriptografia:
 * Exclusão de Dados - Estudo focado principalmente no tópico de exclusão de dados da LGPD que apliquei neste semestre, no qual me permitiu entender mais sobre o Direito do titular a essa solicitação além de possibilitar o desenvolvimento de uma solução a respeito dessa lei.
 
 #### Soft Skills Efetivamente Desenvolvidas
-* Persistencia - Ao longo do desenvolvimento eu testei vários outros algoritmos até encontrar um que se encaixasse no que procurava, durante esse tempo foi preciso continuar tentando e se motivando com a ajuda dos colegas.
+* Persistência - Ao longo do desenvolvimento eu testei vários outros algoritmos até encontrar um que se encaixasse no que procurava, durante esse tempo foi preciso continuar tentando e se motivando com a ajuda dos colegas.
 * Concentração - Habilidade desenvolvida devido ao tempo de estudo necessário para implementação de um algoritmo que suprisse as necessidades do projeto.
 
 ## Meus Principais Conhecimentos
