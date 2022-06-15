@@ -111,15 +111,15 @@ A imagem a seguir demonstra as rotas utilizadas para estruturação da API.<br><
 
 
 ### Tecnologias Utilizadas
-* Python - Linguagem principal;
-* Django - Framework utilizado;
-* MongoDB - Banco de Dados;
+* Python - Linguagem principal para construção de todo back end;
+* Django - Framework web para Python que usa padrão de projeto MVC, utilizado para criação do front end;
+* MongoDB - Banco de Dados não relacional NoSQL orientado a documentos, foi escolhido devido sua flexibilidade em relação ao armazenamento de dados, algo presente em  currículo que pode sofrer alterações em sua estrutura conforme necessário;
 
 ## Contribuições Pessoais
 Nesse projeto fui responsável pela criação do método para update e delete de currículos por ID, assim como correção de bugs em outras interfaces e testes via Postman. Também realizei o deploy da API através do [Heroku App](https://www.heroku.com/).
 
 #### Hard Skills Efetivamente Desenvolvidas
-* MongoDB - Utilizado pela primeira vez, tive a oportunidade de conhecer esse banco de dados ao aplicar na prática durante o projeto;
+* Banco de Dados NoSQL - Utilizado pela primeira vez, tive a oportunidade de conhecer esse banco de dados ao aplicar na prática durante o projeto;
 * Postman - Aprendi a utilizar para realizar teste de API web.
 
 #### Soft Skills Efetivamente Desenvolvidas
@@ -138,12 +138,12 @@ O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.hea
 * Pentaho - Ferramenta usada para criação do ETL;
 
 ## Contribuições Pessoais
-Nesse projeto fui responsável por avaliar as opções de escalabilidade do projeto, no qual foi aplicado particinamento do banco de dados pensando na escalabilidade horizontal.<br> 
+Nesse projeto fui responsável por avaliar as opções de escalabilidade do projeto, no qual foi aplicado particionamento do banco de dados pensando na escalabilidade horizontal.<br> 
 Também auxiliei o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo PowerBI para se adequar a necessidade do cliente.<br> 
 Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
 
 #### Hard Skills Efetivamente Desenvolvidas
-* Mysql - Aprendi o conceito e aplicação de particionamento de banco de dados do MySql;
+* Particionamento - Aprendi o conceito e aplicação de particionamento de banco de dados do MySql;
 * Docker - Aprendi conceitos e aplicações para o Docker. Em nosso projeto foi utilizado para criar o ambiente necessário para criarmos os testes de CI.
 
 #### Soft Skills Efetivamente Desenvolvidas
