@@ -143,8 +143,8 @@ Também auxiliei o time de front end na criação da primeira versão do dashboa
 Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
 
 #### Hard Skills Efetivamente Desenvolvidas
-* Particionamento - Aprendi o conceito e aplicação de particionamento de banco de dados do MySql;
-* Docker - Aprendi conceitos e aplicações para o Docker. Em nosso projeto foi utilizado para criar o ambiente necessário para criarmos os testes de CI.
+* Particionamento de BD - Utilizado no projeto visando manter a disponibilidade e consistência dos dados. Devido ao grande volume de informações armazenadas diariamente, foi necessário estruturar uma solução que abrangesse tal demanda. Estudo em escalabilidade de banco de dados focando em aplicação de particionamento de banco de dados no MySql;
+* CI/CD - Principal técnica aplicada ao projeto permitiu que eu entendesse o conceito desta tecnologia, sua aplicabilidade e importância de uso.
 
 #### Soft Skills Efetivamente Desenvolvidas
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
