@@ -132,19 +132,20 @@ O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.hea
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
 ### Tecnologias Utilizadas
-* MySql - Banco de dados utilizado;
-* Power BI - Criação do Dashboard;
-* Docker - Ambientação e execução de CI/CD;
-* Pentaho - Ferramenta usada para criação do ETL;
+* MySql - Banco de dados relacional utilizado como armazenamento de dados no projeto;
+* Power BI - Ferramenta de Business Intelligence (BI) para apresentar informações de Dashboards e painéis. No projeto, foi utilizado para construção dos Dashboards;
+* Docker - Ferramenta open source para criação de ambientes isolados chamados containers, no qual são possíveis a criação e execução de várias aplicações sem que interfira entre os containers ou na máquina host. No projeto, foi usado para ambientação e execução de CI/CD; 
+* Pentaho - Ferramenta open source que possui soluções de tarefas como ETL (Extraction, Transformation and Load), OLAP (Online Analytical Processing) e Mineração de dados (Data Mining). No projeto, foi usado para criação do ETL;
 
 ## Contribuições Pessoais
 Nesse projeto fui responsável por avaliar as opções de escalabilidade do projeto, no qual foi aplicado particionamento do banco de dados pensando na escalabilidade horizontal.<br> 
-Também auxiliei o time de front end na criação da primeira versão do dashboard, que posteriormente foi substituído pelo PowerBI para se adequar a necessidade do cliente.<br> 
-Auxiliei na solução de problemas com CI/CD relacionado ao Docker. 
+Também auxiliei o time de front end na criação da primeira versão do dashboard utilizando cubejs, que posteriormente foi substituído pelo PowerBI para se adequar a necessidade do cliente.<br> 
+Auxiliei na solução de problemas com CI/CD relacionado ao Docker quando o mesmo passou a ser utilizado para ambientação e execução do projeto de CI. 
 
 #### Hard Skills Efetivamente Desenvolvidas
 * Particionamento de BD - Utilizado no projeto visando manter a disponibilidade e consistência dos dados. Devido ao grande volume de informações armazenadas diariamente, foi necessário estruturar uma solução que abrangesse tal demanda. Estudo em escalabilidade de banco de dados focando em aplicação de particionamento de banco de dados no MySql;
 * CI/CD - Principal técnica aplicada ao projeto permitiu que eu entendesse o conceito desta tecnologia, sua aplicabilidade e importância de uso.
+* ETL - Processo no qual os dados são extraídos de um banco de dados, convertidos para que possam ser analisados e armazenados em outro banco. Foi o principal recurso do projeto para criação de um DW (DataWarehouse). Me permitiu compreender seu uso e importância na construção de um DW.
 
 #### Soft Skills Efetivamente Desenvolvidas
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
