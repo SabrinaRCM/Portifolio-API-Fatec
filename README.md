@@ -116,14 +116,30 @@ A imagem a seguir demonstra as rotas utilizadas para estruturação da API.<br><
 * MongoDB - Banco de Dados não relacional NoSQL orientado a documentos, foi escolhido devido sua flexibilidade em relação ao armazenamento de dados, algo presente em  currículo que pode sofrer alterações em sua estrutura conforme necessário;
 
 ## Contribuições Pessoais
-Nesse projeto fui responsável pela criação do método para update e delete de currículos por ID, assim como correção de bugs em outras interfaces e testes via Postman. Também realizei o deploy da API através do [Heroku App](https://www.heroku.com/).
+Nesse projeto fui responsável pela criação do método atualizar e deletar currículos por ID utilizando os métodos UPDATE e DELETE no Django, assim como correção de bugs em outras interfaces e testes via Postman.<br>
+A função atualizarCurriculo consistia em receber no método PUT, a requisição contendo o ID de um currículo a mesma realizava uma nova requisição de um objeto JSON no qual era atualizado no banco de dados através de conexão realizada com a biblioteca pymongo com o MongoDB e utilizando linguagem própria do Mongo a opção usada foi update_one. Semelhante a anterior, a função deletarCurriculo foi usada o método DELETE e opção delete_many. Ambas as funções retornavam mensagens de sucesso ou tratamento de erros, caso ocorressem, para o usuário.<br>
+Também realizei o deploy da API através do [Heroku App](https://www.heroku.com/).<br><bR>
+O código abaixo demonstra a função atualizarCurriculo
+``` python 
+  @csrf_exempt
+  def atualizarCurriculo(request, pk):
+     if request.method == "PUT":
+        client = View.createConnection()
+        db = client["Finder"]
+        col = db["Inscrito"]
+        result = col.update_one({"InscritoIdExterno" : pk}, json.loads(request.body))
+        # result
+        return JsonResponse({"message":"Curriculo atualizado com sucesso."}, status=200)
+     else:
+        return JsonResponse({"message":"Erro na requisição. Método esperado: PUT."}, status=500) 
+   ```
 
 #### Hard Skills Efetivamente Desenvolvidas
-* Banco de Dados NoSQL - Utilizado pela primeira vez, tive a oportunidade de conhecer esse banco de dados ao aplicar na prática durante o projeto;
-* Postman - Aprendi a utilizar para realizar teste de API web.
+* Banco de Dados NoSQL - Primeiro contato com um banco de dados não relacional, tive a oportunidade de conhecer sua estrutura na prática durante o projeto, no qual foi utilizado MongoDB;
+* API Rest - Aprendi o conceito de API REST e como utilizar seus recursos para criar uma API que poderá ser utilizada para realizar ações pelo usuário através de URL documentada. Utilizados os métodos GET, POST, PUT e DELETE.
 
 #### Soft Skills Efetivamente Desenvolvidas
-* Resiliência: Enfrentamos alguns problemas que forçaram o aprimoramento dessa soft skill.
+* Confiança: Durante o desenvolvimento do projeto foi preciso manter confiança pois alguns de nós não conheciam vários conceitos utilizados, então além de focar os estudos para a resolução do problema, tivemos que tomar decisões importantes para nos ajudar a continuar.
 * Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
    
 ### Em 2021-2
@@ -149,7 +165,7 @@ Auxiliei na solução de problemas com CI/CD relacionado ao Docker quando o mesm
 
 #### Soft Skills Efetivamente Desenvolvidas
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
-Lidar com pressão - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
+Resiliência - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
 ### Em 2022-1
 O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br><br>
