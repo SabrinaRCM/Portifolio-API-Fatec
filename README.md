@@ -183,7 +183,7 @@ O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que f
 * Sqlite - Banco de dados de complexidade baixa usado em aplicações que priorizam a simplicidade de implementação e administração, pois não contam com a utilização de um Sistema Gerenciador de Banco de Dados (SGBD). Como o propósito do projeto é demonstrar a solução, escolhemos o Sqlite pela sua facilidade. 
 
 ## Contribuições Pessoais
-Neste projeto fui responsável pela solução de Exclusão de dados.<br> 
+Neste projeto fui responsável pela solução de Exclusão de dados, no qual implementei a função de inserção de dados criptografados, visualização dos dados descriptografados e exclusão de chave.<br> 
 O titular dos dados armazenados pode solicitar a exclusão dos mesmos para qualquer empresa que os mantenha com o seu consentimento, exceto sob condições impostas no art. 16 da LGPD.<br> 
 Para que essa lei seja cumprida, a empresa deve adequar seu banco de dados para que um dado excluído mediante solicitação do titular não sejam restaurados no backup ou 
 de outra forma.<br> 
