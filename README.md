@@ -2,7 +2,7 @@
 
 ### Sobre mim
 ![IMG_20211115_135524](https://user-images.githubusercontent.com/37507613/176547841-530a8749-ced8-4b40-9da5-4d1c8444c956.jpg)<br><br>
-Cursei junto com o ensino médio o técnico em administração de empresas e, em 2013, comecei a trabalhar com administração e cheguei a iniciar dois cursos superiores em outras áreas, um seguido do outro, mas ainda não sentia que eu me encaixava no curso ou no emprego. Em 2018, surgiu vontade e oportunidade de começar um curso técnico no Senac na área de informática, na qual eu já tinha tido contato antes mas nunca pensei em trabalhar com isto. A convite de um amigo que fazia Banco de Dados na Fatec, comecei a participar de eventos de programação e, apesar de não entender muito, fui anotando o que achava relevante para consultar posteriormente conforme aprendia. No segundo semestre de 2019, eu já estava terminando o curso de informática no Senac, ao mesmo tempo comecei a trabalhar como suporte técnico para uma empresa que produz software próprio e iniciei o curso de Banco de Dados na Fatec. Em 2021, recebi a proposta desta mesma empresa para trabalhar como Front-end em um de seus aplicativos no qual trabalhei por 6 meses até receber uma proposta de outra empresa para o cargo de desenvolvedora no qual permaneço até então.
+Cursei junto com o ensino médio o técnico em administração de empresas e, em 2013, comecei a trabalhar com administração e cheguei a iniciar dois cursos superiores em outras áreas, um seguido do outro, mas ainda não sentia que eu me encaixava no curso ou no emprego. Em 2018, surgiu vontade e oportunidade de começar um curso técnico no Senac na área de informática, na qual eu já tinha tido contato antes, mas nunca pensei em trabalhar com isto. A convite de um amigo que fazia Banco de Dados na Fatec, comecei a participar de eventos de programação e, apesar de não entender muito, fui anotando o que achava relevante para consultar posteriormente conforme aprendia. No segundo semestre de 2019, eu já estava terminando o curso de informática no Senac, ao mesmo tempo comecei a trabalhar como suporte técnico para uma empresa que produz software próprio e iniciei o curso de Banco de Dados na Fatec. Em 2021, recebi a proposta desta mesma empresa para trabalhar como Front-end em um de seus aplicativos no qual trabalhei por 6 meses até receber uma proposta de outra empresa para o cargo de desenvolvedora no qual permaneço até então.
 
 # Meus Projetos
 
@@ -85,7 +85,7 @@ O usuário possui um simulador onde pode escolher seu objetivo e assim receber a
 * Spring 2.3.0/Thymeleaf - Facilitar o desenvolvimento da aplicação;
 * Maven/Gradle - Aplicação web;
 * Hibernate - Ligação com o banco de dados;
-* Html5, JavaScript, CSS, Bootstrap 4 - Front-end;
+* Html5, JavaScript, CSS, Bootstrap 4 - Front-end.
 
 ## Contribuições Pessoais
 Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto, auxiliando a equipe com o entendimento, junto ao Scrum Master estruturamos as tarefas e dividimos de acordo com as prioridades.<br>
@@ -166,7 +166,7 @@ Auxiliei na solução de problemas com CI/CD relacionado ao Docker quando o mesm
 
 #### Soft Skills Efetivamente Desenvolvidas
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
-Resiliência - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou à medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
+Resiliência - Nessa época houve conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou à medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
 ### Em 2022-1
 O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br><br>
