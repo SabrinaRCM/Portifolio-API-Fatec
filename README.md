@@ -14,7 +14,7 @@ Nosso bot foi criado pensando em pessoas que pretendem investir em ações da bo
 
 ### Tecnologias Utilizadas
 * Python 3.7 - Linguagem principal;
-* Django, Javascript, HTML5, CSS,  Bootstrap - Front End WEB;
+* Django, Javascript, HTML5, CSS,  Bootstrap - Front-End WEB;
 * MySQL - Banco de Dados;
 * PowerBI - Usado posteriormente para exibição dos dashboards. 
 * Principais Bibliotecas Python:  
@@ -25,7 +25,7 @@ Nosso bot foi criado pensando em pessoas que pretendem investir em ações da bo
     **Email / Telegram-bot** - envio de alertas e notificações;
     
 ## Contribuições Pessoais
-Nesse projeto, atuei na construção das telas de front end para o usuário e na manipulação da biblioteca **Pandas** para leitura dos arquivos e **Matplotlib** para geração de gráficos a serem enviados por Email e Telegram-bot.<br>
+Nesse projeto, atuei na construção das telas de front-end para o usuário e na manipulação da biblioteca **Pandas** para leitura dos arquivos e **Matplotlib** para geração de gráficos a serem enviados por Email e Telegram-bot.<br>
 Criei o wireframe e comecei a desenvolver utilizando HTML, CSS, JavaScript combinado com Bootstrap para o visual do site. Foi criada a tela de login, dashboard e cadastro de novo usuário. Posteriormente decidimos substituir essa interface pelo PowerBI pois decidimos mostrar apenas o Dashboard, no qual auxiliei na criação. <br>
 Também fui responsável pela manipulação das bibliotecas que iriam receber os dados da raspagem, realizar leitura, e plotagem.
 
@@ -37,7 +37,7 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Metodologias Scrum - Conhecia um pouco da metodologia Scrum na teoria e neste projeto foi desenvolvido na prática pela primeira vez o que serviria de base para futuros projetos.
 
 #### Soft Skills Efetivamente Desenvolvidas
-* Integração com equipe: Eu estava na lista de espera da Fatec, e quando me chamaram para começar, as aulas já haviam iniciado à 3 semanas, então tive que entrar em um grupo formado. Todos já estavam integrados e eu tive um pouco mais de trabalho para me encaixar na equipe e no projeto no início. 
+* Integração com equipe: Eu estava na lista de espera da Fatec, e quando me chamaram para começar, as aulas já haviam iniciado a 3 semanas, então tive que entrar em um grupo formado. Todos já estavam integrados e eu tive um pouco mais de trabalho para me encaixar na equipe e no projeto no início. 
 * Confiança: Nós estávamos sendo orientados por um Product Owner e um Scrum Master do 6° semestre, foi preciso confiar na experiência que eles possuíam para nos orientar.
 * Organizar projetos: Aprendi na prática como distribuir tarefas em um projeto através de boards com atividades.
 
@@ -65,7 +65,7 @@ O gif abaixo apresenta funcionamento do gráfico Gantt.<br><br>
 
 #### Hard Skills Efetivamente Desenvolvidas
 * Django - Aprendi mais sobre o Django e suas funcionalidades, sendo capaz de iniciar e configurar um novo projeto sozinha, além de utilizar as bibliotecas PyMySQL e Crispy Forms pela primeira vez, também aprendi a fazer requisições Ajax em Python.
-* Html5, JavaScript, CSS, Bootstrap 4 - Como no projeto anterior fiquei responsável pela criação do front end usando ferramentas de criação para Web, o maior desafio foi o gráfico Gantt devido ao conhecimento limitado em JavaScript que eu tinha naquela época, então o desenvolvimento deste aumentou minhas habilidades.
+* Html5, JavaScript, CSS, Bootstrap 4 - Como no projeto anterior fiquei responsável pela criação do front-end usando ferramentas de criação para Web, o maior desafio foi o gráfico Gantt devido ao conhecimento limitado em JavaScript que eu tinha naquela época, então o desenvolvimento deste aumentou minhas habilidades.
 
 #### Soft Skills Efetivamente Desenvolvidas
 * Proatividade - Estávamos em menor número do que o recomendado para esse trabalho, então necessitou que cada um de nós trabalhasse um pouco mais para compensar.
@@ -85,11 +85,11 @@ O usuário possui um simulador onde pode escolher seu objetivo e assim receber a
 * Spring 2.3.0/Thymeleaf - Facilitar o desenvolvimento da aplicação;
 * Maven/Gradle - Aplicação web;
 * Hibernate - Ligação com o banco de dados;
-* Html5, JavaScript, CSS, Bootstrap 4 - Front end;
+* Html5, JavaScript, CSS, Bootstrap 4 - Front-end;
 
 ## Contribuições Pessoais
-Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto , auxiliando a equipe com o entendimento do mesmo, junto ao Scrum Master estruturamos as tarefas e dividimos de acordo com as prioridades.<br>
-Fui responsável também pela construção da interface front end utilizada.<br><br>
+Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto, auxiliando a equipe com o entendimento, junto ao Scrum Master estruturamos as tarefas e dividimos de acordo com as prioridades.<br>
+Fui responsável também pela construção da interface front-end utilizada.<br><br>
 A imagem abaixo mostra a tela de login.<br><br>
 ![scorewizardlogin](https://user-images.githubusercontent.com/37507613/142071331-fc0f3880-0c52-4ad7-82ee-ee4ec11bfb34.png)<br>
 
@@ -166,14 +166,14 @@ Auxiliei na solução de problemas com CI/CD relacionado ao Docker quando o mesm
 
 #### Soft Skills Efetivamente Desenvolvidas
 Atitude positiva - Durante o aprendizado e desenvolvimento do ETL ocorreram diversos problemas de integração com a ferramenta utilizada, o time se manteve positivo para o sucesso do projeto;<br>
-Resiliência - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou a medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
+Resiliência - Nessa época houveram conflitos diversos entre os colegas da sala, o que afetou todos os grupos, a tensão aumentou à medida que os problemas se intensificaram, então foi importante saber lidar com a crescente pressão advinda disso;
 
 ### Em 2022-1
 O 6º semestre não teve parceiro acadêmico, ao invés disso foi proposto que fosse escolhido de forma individual um projeto desenvolvido como parte da grade curricular das disciplinas do semestre. Tendo isto em mente, utilizarei o projeto cuja proposta envolve a elaboração de 3 soluções contidas na Lei Geral de Proteção de Dados Pessoais (LGPD - Lei nº 13.709/2018 ) tendo como foco o que diz respeito aos temas Opt-in/Opt-out, Anonimização e Direito de Exclusão aplicado a uma empresa de telefonia.<br><br>
 **Opt-in/Opt-out**<br>
 •	Assegurado pelo 8º §4° e §5° da LGPD Opt-in trata - se da permissão concedida pelo usuário ao aceitar o termo de uso e itens conforme previstos no mesmo sempre que dados pessoais forem solicitados, deixando claro a intenção do uso deles, como o recebimento de propagandas por e-mail, sms e outros canais de comunicação. Enquanto o Opt-out garante que a permissão seja revogada caso ele deseje deixar de receber propagandas ou não deseje mais compartilhar seus dados. A aplicação na empresa de telefonia tem como foco então registrar essas concessões assim como histórico de versão.<br><br>
 **Anonimização**<br>
-•	Sendo referenciado no 5º, III da LGPD a anonimização diz respeito aquele que era relativo a uma pessoa, mas foi processado para que não se vincule a mesma. Em nossa aplicação será abordada através da criação de um sistema de recomendação de locais utilizando a geolocalização se for permitida pelo usuário.<br><br>
+•	Referenciado no 5º, III da LGPD a anonimização diz respeito aquele que era relativo a uma pessoa, mas foi processado para que não se vincule a mesma. Em nossa aplicação será abordada através da criação de um sistema de recomendação de locais utilizando a geolocalização se for permitida pelo usuário.<br><br>
 **Direito de Exclusão**<br>
 •	Art. 5°, XIV prevê o Direito de que os dados do usuário sejam eliminados caso o titular solicite. A empresa deve adequar o banco de dados para que não seja recuperado nem mesmo após restauração de backup. Será representado na nossa aplicação a inserção de dados considerados sensíveis criptografados, cuja chave de descriptografia é armazenada em um banco separado do principal e caso solicitado a mesma é excluída impossibilitando assim acesso aos dados, pois uma vez que a chave é perdida, não há como recuperar os dados.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/lgpd-6-semestre)**
