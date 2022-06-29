@@ -1,13 +1,13 @@
 # Sabrina Rafaela Calado Mariano
 
 ### Sobre mim
-![IMG_20211115_135524](https://user-images.githubusercontent.com/37507613/176547841-530a8749-ced8-4b40-9da5-4d1c8444c956.jpg)
+![IMG_20211115_135524](https://user-images.githubusercontent.com/37507613/176547841-530a8749-ced8-4b40-9da5-4d1c8444c956.jpg)<br><br>
 Cursei junto com o ensino médio o técnico em administração de empresas e, em 2013, comecei a trabalhar com administração e cheguei a iniciar dois cursos superiores em outras áreas, um seguido do outro, mas ainda não sentia que eu me encaixava no curso ou no emprego. Em 2018, surgiu a vontade e oportunidade de começar um curso técnico no Senac na área de informática, na qual eu já tinha tido contato antes mas nunca pensei em trabalhar com isto. A convite de um amigo que fazia Banco de Dados na Fatec, comecei a participar de eventos de programação e, apesar de não entender muito, fui anotando o que achava relevante para consultar posteriormente conforme aprendia. No segundo semestre de 2019, eu já estava terminando o curso de informática no Senac, ao mesmo tempo comecei a trabalhar como suporte técnico para uma empresa que produz software próprio e iniciei o curso de Banco de Dados na Fatec. Em 2021, recebi a proposta desta mesma empresa para trabalhar como Front-end em um de seus aplicativos no qual trabalhei por 6 meses até receber uma proposta de outra empresa para o cargo de desenvolvedora no qual permaneço até então.
 
 # Meus Projetos
 
 ### Em 2019-2
-![logo](https://user-images.githubusercontent.com/37507613/172276689-9b95e8be-3187-4f86-8884-f3d9a2fcaca1.jpg)<br>
+![logo](https://user-images.githubusercontent.com/37507613/172276689-9b95e8be-3187-4f86-8884-f3d9a2fcaca1.jpg)<br><br>
 O primeiro projeto foi proposto em parceria com a própria [Fatec](https://fatecsjc-prd.azurewebsites.net/), no qual deveríamos solucionar um problema de nossa escolha com a criação de um webbot.<br>
 Nosso bot foi criado pensando em pessoas que pretendem investir em ações da bolsa de valores, no entanto possui pouco conhecimento, não sabe por onde começar ou tem pouco tempo para procurar e analisar a melhor escolha. O bot BlackMamba foi criado para suprir essas necessidades e possui funções para raspagem de dados de ações escolhidas pelo usuário diretamente da bolsa de valores e que poderão receber por e-mail, Telegram ou consultar online estatísticas dessa ação, bem como, histórico dos últimos 12 meses para ajudar o usuário a acompanhar e decidir se aquele investimento será benéfico ou não.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/webbot-blackmamba-1-semestre)**
@@ -42,7 +42,7 @@ Também fui responsável pela manipulação das bibliotecas que iriam receber os
 * Organizar projetos: Aprendi na prática como distribuir tarefas em um projeto através de boards com atividades.
 
 ### Em 2020-1
-![bridges-logo](https://user-images.githubusercontent.com/37507613/172277339-df72ecc9-7635-49a8-8751-4b9f24004123.png)<br>
+![bridges-logo](https://user-images.githubusercontent.com/37507613/172277339-df72ecc9-7635-49a8-8751-4b9f24004123.png)<br><br>
 O segundo projeto teve como Parceiro Acadêmico a empresa [Necto](http://www.nectosystems.com.br/pt/). Nossa proposta foi criar um gerenciador de projetos web.<br>
 A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como uma ponte para gerenciamento eficaz de projetos. A aplicação permite ao usuário se logar, inserir um projeto, uma tarefa, funcionários, atribuir funcionários a tarefas, importar arquivos csv do cliente em tela própria para cada um e gerenciar o tempo disponível de cada funcionário em cada tarefa em uma única tela composta do gráfico Gantt e gráfico indicador.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/bridges-2-semestre)**
@@ -60,7 +60,7 @@ A aplicação web **Bridges**(Do inglês, ponte) foi criada pensando em ser como
 ## Contribuições Pessoais
 Nesse projeto fui responsável pela criação de toda a interface utilizada, incluindo o gráfico Gantt e algumas de suas funcionalidades em back end.<br>
 Também atuei como Scrum Master participando das reuniões semanais, dando apoio a equipe e trabalhando junto com o Product Owner para definir as tarefas contidas no backlog. As tarefas eram distribuídas de acordo com as habilidades de cada um.<br><br>
-O gif abaixo apresenta funcionamento do gráfico Gantt.
+O gif abaixo apresenta funcionamento do gráfico Gantt.<br><br>
 ![gantt](https://user-images.githubusercontent.com/37507613/141699234-a2de430c-aa96-4ddc-a2e1-c570e5e70b24.gif)<br>
 
 #### Hard Skills Efetivamente Desenvolvidas
@@ -73,7 +73,7 @@ O gif abaixo apresenta funcionamento do gráfico Gantt.
 * Organização - Por estar em casa, acabamos organizando mal o nosso tempo, por isso foi preciso aprender como organizar melhor.
 
 ### Em 2020-2
-![logo_ScoreWizard](https://user-images.githubusercontent.com/37507613/172676224-a9c9818c-39a5-4e12-8625-ae7c57552711.jpeg)<br>
+![logo_ScoreWizard](https://user-images.githubusercontent.com/37507613/172676224-a9c9818c-39a5-4e12-8625-ae7c57552711.jpeg)<br><br>
 O projeto teve como Parceiro Acadêmico a empresa [SPC](https://www.spcbrasil.org.br/). Nossa proposta era criar um complemento para o produto Cadastro Positivo do SPC Brasil.<br>
 A aplicação **Score Wizard** (do inglês, Pontuação Inteligente) foi criada com objetivo de permitir que pessoas físicas e jurídicas consigam ter maior controle sobre como seu Score sofre alterações positivas e negativas. O score é importante para conseguir alguns objetivos no mercado como: empréstimos, cartão de crédito e financiamento. Quanto maior o score, maiores são as chances de conseguir crédito com as empresas especializadas nisso.<br> 
 O usuário possui um simulador onde pode escolher seu objetivo e assim receber algumas metas que irão auxiliar no aumento do Score e assim cumprir o objetivo. Além disso, foi acrescentado uma espécie de jogo onde algumas ações como pagamento de contas em dia, acrescentará pontos de experiência no perfil permitindo que seja comprado na loja do SPC alguns serviços adicionais para monitoramento do CPF ou CNPJ.<br>
@@ -90,7 +90,7 @@ O usuário possui um simulador onde pode escolher seu objetivo e assim receber a
 ## Contribuições Pessoais
 Atuei como Product Owner fazendo a ligação entre a equipe e o cliente para garantir que o produto estivesse de acordo com o esperado pelo mesmo, definindo o backlog do produto , auxiliando a equipe com o entendimento do mesmo, junto ao Scrum Master estruturamos as tarefas e dividimos de acordo com as prioridades.<br>
 Fui responsável também pela construção da interface front end utilizada.<br><br>
-A imagem abaixo mostra a tela de login.
+A imagem abaixo mostra a tela de login.<br><br>
 ![scorewizardlogin](https://user-images.githubusercontent.com/37507613/142071331-fc0f3880-0c52-4ad7-82ee-ee4ec11bfb34.png)<br>
 
 #### Hard Skills Efetivamente Desenvolvidas
@@ -103,7 +103,7 @@ A imagem abaixo mostra a tela de login.
 * Comunicação - O trabalho novamente foi feito sem que nos encontrássemos pessoalmente pois ainda estávamos em situação de pandemia, o que exigiu de cada um que se comunicasse da melhor forma possível.
 
 ### Em 2021-1
-![Logo_Pythaon](https://user-images.githubusercontent.com/37507613/172277894-f9dc9736-1462-4736-aad1-6d8b1daecb5a.png)<br>
+![Logo_Pythaon](https://user-images.githubusercontent.com/37507613/172277894-f9dc9736-1462-4736-aad1-6d8b1daecb5a.png)<br><br>
 O projeto teve como Parceiro Acadêmico a empresa [JetSoft](https://www.jetsoft.com.br/). Nossa proposta consistia em criar um sistema de cadastro e busca de currículos baseados em critérios estabelecidos pelo cliente.<br>
 A aplicação **Finder** (do inglês, Localizador) foi criada para fazer inserção e busca de currículos em uma base de dados criada em MongoDB por meio de requisição POST, ou seja, sem interface gráfica. Toda a inserção e busca são feitas via URL que deve ser usada conforme documentação.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/finder-pythaon-4-semestre)**<br><br>
@@ -144,7 +144,7 @@ O código abaixo demonstra a função atualizarCurriculo
 * Perseverança: Foram horas de tentativas em realizar o deploy no Heroku que retornava um erro que parecia não ter solução, mas no fim conseguimos superar o problema e concretizar nosso objetivo.
    
 ### Em 2021-2
-   ![Logo_PythaOff](https://user-images.githubusercontent.com/37507613/172277955-e4b2e78f-ff7c-4c25-98c6-b9939aeabd68.png)<br>
+   ![Logo_PythaOff](https://user-images.githubusercontent.com/37507613/172277955-e4b2e78f-ff7c-4c25-98c6-b9939aeabd68.png)<br><br>
 O projeto teve como Parceiro Acadêmico a empresa [Ness](https://pt-br.ionic.health/). A proposta era criar uma solução em Data Warehouse para um chat de aprendizado e dashboard com análise das informações solicitadas pelo cliente, ajustar o banco de dados pensando em grande processamento com ganho de escalabilidade e integração contínua entre os ambientes.<br>
 **[GIT para projeto](https://github.com/SabrinaRCM/pythaoff-5-semestre)**
 
